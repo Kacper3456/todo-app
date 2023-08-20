@@ -1,4 +1,4 @@
-Filepath='venv/todos.txt'
+Filepath='todos.txt'
 def get_todos(filepath=Filepath):
     """Read the textfile and return the list of to-do items"""
     with open(filepath, 'r') as file_local:
